@@ -105,6 +105,25 @@ body {
   margin-left: 93px;
 }
 
+.item .studio {
+  position: relative;
+}
+
+.link-current::after {
+  position: absolute;
+
+  display: block;
+
+  width: 48px;
+  height: 4px;
+  content: '';
+
+  top: 78px;
+
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
+
 /* auth-nav */
 
 .auth-nav {
@@ -272,6 +291,29 @@ body {
 
 .our-business .item:last-child {
   margin-right: 0px;
+}
+
+.list-position {
+  position: relative;
+}
+
+.attachment {
+  position: absolute;
+  top: 224px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /* team */
